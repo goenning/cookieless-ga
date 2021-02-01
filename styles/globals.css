@@ -6,11 +6,76 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html, body, #__next {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(156,163,175,0.5);
+  background-color: rgba(249, 250, 251, 0.8);
+}
+
+main {
+  flex: auto;
+  background: radial-gradient(rgba(156,163,175,0.5) 1px, transparent 1px);
+  background-size: 30px 30px;
+  margin: 20px auto;
+}
+
+nav {
+  border-bottom: 1px solid rgba(156,163,175,0.3);
+  font-size: 20px;
+}
+
 a {
-  color: inherit;
+  color: #3B82F6;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+  color: #1D4ED8;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgba(249, 250, 251, 0.8);
+  border-top: 1px solid rgba(156,163,175,0.5);
+  width: 100vw;
+  padding: 40px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer svg {
+  margin: 0 10px;
 }

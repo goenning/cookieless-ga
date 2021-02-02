@@ -8,7 +8,7 @@ export default function Home() {
       <br />
       <p>Although this site is built with Next.js, the same setup can be applied to any language or framework.</p>
       <br />
-      <p>To learn how it works, read this blog post <a target="_blank" href="https://goenning.net">https://goenning.net</a></p>
+      <p>To learn how it works, read this blog post <a target="_blank" href="https://goenning.net/2021/02/01/cookieless-google-analytics/">https://goenning.net/2021/02/01/cookieless-google-analytics</a></p>
     </main>
   )
 }
